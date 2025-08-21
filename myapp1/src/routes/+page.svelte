@@ -1,10 +1,5 @@
-<script lang="ts">
-  let count: number = 0;
-
-  function increment(): void {
-    count += 1;
-  }
+<script>
+  let name = "Devon";
 </script>
 
-<h1>{count}</h1>
-<button on:click={increment}>+1</button>
+<h1>Hello {name}, welcome to homepage !</h1>
